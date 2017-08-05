@@ -1,0 +1,26 @@
+/* Jquery Image Slider Tutorial 
+ * File : style.css
+ * Author : Krishna Teja G S
+ * Dated : 2nd January 2015
+ * Article : http://packetcode.com/article/jquery-image-slider-tutorial
+ */
+
+body{
+	padding:10px;
+}
+.slides{
+	position:relative;
+	height:300px;
+	width:500px;
+}
+.slides  img{
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index:-2;
+}
+
+.slides  img.top{
+	z-index:-1;
+}
+
